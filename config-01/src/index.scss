@@ -1,0 +1,37 @@
+@import url('./colors.scss');
+
+.title {
+  color: test1;
+  background-color: test2;
+}
+.images{
+  position: relative;
+  margin-bottom: 3vh;
+  .images-bg{
+    top:50%;
+    left:0;
+    position: absolute;
+    width: 10vw;
+    height: 6vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    transform: translateY(-50%)
+  }
+  h3,p{
+    padding:0;
+    margin:0;
+    margin-left:12vw;
+  }
+}
+.images-01 .images-bg{
+  background-image: url('./images/ico/ico-1.png')
+}
+.images-02 .images-bg{
+  background-image: url('./images/ico/ico-2.png')
+}
+.images-03 .images-bg{
+  background-image: url('./images/ico/ico-3.png')
+}
+.images-04 .images-bg{
+  background-image: url('./images/ico/ico-4.png')
+}

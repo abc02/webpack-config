@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "me <abcgg02@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-spritesmith": "^0.3.3"
+  }
 }
